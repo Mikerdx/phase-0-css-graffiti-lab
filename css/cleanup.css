@@ -1,1 +1,25 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Hide more graffiti tags */
+  #wall .tag-2 {
+    display: none;
+  }
+  
+  #wall .tag-3 {
+    display: none;
+  }
+  
+  /* Adjust background to cover up the removed graffiti */
+  #wall {
+    background-color: #f4f4f4;
+  }
+  
+  /* Reset padding and margin */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
